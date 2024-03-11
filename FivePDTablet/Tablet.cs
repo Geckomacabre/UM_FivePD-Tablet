@@ -19,7 +19,7 @@ namespace FivePDTablet
             //TODO: On duty check
             if (!(API.IsPedInAnyPoliceVehicle(API.GetPlayerPed(-1))))
             {
-                if (API.IsControlJustPressed(0, 305)) //305 is B but this can be set to any FiveM keybind
+                if (API.IsControlJustPressed(0, 317)) //317 is pg up but this can be set to any FiveM keybind
                 {
                     // To Open Computer
                     API.SendNuiMessage("{\"type\":\"FIVEPD::Computer::UI\",\"display\":true}");
